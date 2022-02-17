@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    // inciso A
     int n, i, factorial;
 
     cout<<"Introduce un numero";
