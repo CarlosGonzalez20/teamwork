@@ -34,9 +34,21 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/delet.h" />
+		<Unit filename="include/display.h" />
+		<Unit filename="include/insert.h" />
 		<Unit filename="include/menu.h" />
+		<Unit filename="include/modify.h" />
+		<Unit filename="include/persona.h" />
+		<Unit filename="include/search.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/delet.cpp" />
+		<Unit filename="src/display.cpp" />
+		<Unit filename="src/insert.cpp" />
 		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/modify.cpp" />
+		<Unit filename="src/persona.cpp" />
+		<Unit filename="src/search.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

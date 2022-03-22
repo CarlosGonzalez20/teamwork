@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1647911962 source:c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\main.cpp
+	<iostream>
+	"menu.h"
+	"insert.h"
+	"display.h"
+	"modify.h"
+	"search.h"
+	"delet.h"
+	"persona.h"
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
+1647908804 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\menu.h
+
+1647910570 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\insert.h
+
+1647910745 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\display.h
+
+1647910842 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\modify.h
+
+1647910935 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\search.h
+
+1647910997 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\delet.h
+
+1647911071 c:\users\ll322\proyectos\grupo2\segundobimestre\encabezados\tareaencabezados\include\persona.h
+

@@ -5,6 +5,7 @@
 #include<cstdlib>
 #include<conio.h>
 #include<iomanip>
+using namespace std;
 
 menu::menu()
 {
@@ -60,7 +61,8 @@ menu::menu()
     }while(choice!= 6);
 
     //ctor
-}
+    }
+
 
 menu::~menu()
 {
