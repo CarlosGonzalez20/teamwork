@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1647919385 source:c:\users\user\projects\grupo2\segundobimestre\encabezados\tareaencabezadowilliammayén\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
