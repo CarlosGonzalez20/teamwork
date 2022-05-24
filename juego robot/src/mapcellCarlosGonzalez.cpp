@@ -1,20 +1,19 @@
-#include "mapcell.h"
+#include "mapcellCarlosGonzalez.h"
 //Implementacion de toda la funcionabilidad de las celdas del mapa de juego
 #include <iostream>
 
 using namespace std;
 
-mapcell::mapcell()
+mapcellCarlosGonzalez::mapcellCarlosGonzalez()
 {
     //ctor
     id = 0; //ascii de espacios en el mapa
-    //id = 178;
+    //id = 176;
 }
-bool mapcell::isBlockedCell()
+bool mapcellCarlosGonzalez::isBlockedCell()
 {
-    //cout << "caracter visitado=" << id << endl;
     if( id == '1')
-    //if( id == 178)
+    //if( id == 176)
     {
         return true;
     } else
@@ -22,7 +21,7 @@ bool mapcell::isBlockedCell()
         return false;
     }
 }
-mapcell::~mapcell()
+mapcellCarlosGonzalez::~mapcellCarlosGonzalez()
 {
     //dtor
 }

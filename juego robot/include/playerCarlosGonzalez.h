@@ -1,13 +1,13 @@
-#ifndef PLAYER_H
-#define PLAYER_H
+#ifndef PLAYERCARLOSGONZALEZ_H
+#define PLAYERCARLOSGONZALEZ_H
 
-// Encabezado que define toda la funcionabilidad del Jugador
-class player
+
+class playerCarlosGonzalez
 {
     public:
-        player();
+        playerCarlosGonzalez();
+        virtual ~playerCarlosGonzalez();
         int lastX, lastY;
-        virtual ~player();
         void callInput();
         int getValueX();
         void setValueX(int valueX);
@@ -20,7 +20,6 @@ class player
 
     private:
         int x, y;
-
 };
 
-#endif // PLAYER_H
+#endif // PLAYERCARLOSGONZALEZ_H

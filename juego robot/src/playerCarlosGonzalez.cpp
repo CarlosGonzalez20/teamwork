@@ -1,37 +1,37 @@
-#include "player.h"
+#include "playerCarlosGonzalez.h"
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 //Implementacion de toda la funcionabilidad de la clase Jugador
 
-player::player()
+playerCarlosGonzalez::playerCarlosGonzalez()
 {
     //ctor
-    x = 1;
-    y = 1;
-    lastX = 1;
-    lastY = 1;
+    x = 7;
+    y = 10;
+    lastX = 7;
+    lastY =10;
 }
 
-player::~player()
+playerCarlosGonzalez::~playerCarlosGonzalez()
 {
     //dtor
     //
 }
-int player::getValueX(){
+int playerCarlosGonzalez::getValueX(){
     return x;
 }
-int player::getValueY(){
+int playerCarlosGonzalez::getValueY(){
     return y;
 }
-void player::setValueX(int valueX){
+void playerCarlosGonzalez::setValueX(int valueX){
     x = valueX;
 }
-void player::setValueY(int valueY){
+void playerCarlosGonzalez::setValueY(int valueY){
     y = valueY;
 }
-void player::callInput()
+void playerCarlosGonzalez::callInput()
 {
     char userInput = ' ';
     cin >> userInput;
@@ -71,12 +71,12 @@ void player::callInput()
     }
     //cout << "El jugador esta en las coordenadas -> " << "X=" << x << " Y=" << y << " GuardaX=" << lastX << "GuardaY=" << lastY << endl;
 }
-void player::resetToSafePosition()
+void playerCarlosGonzalez::resetToSafePosition()
 {
     x = lastX;
     y = lastY;
 }
-void player::drawCreditos()
+void playerCarlosGonzalez::drawCreditos()
 {
     string line;
     char userInput = ' ';
@@ -96,4 +96,3 @@ void player::drawCreditos()
         cout << "Error FATAL: el archivo de ganador no pudo ser cargado" << endl;
     }
 }
-
